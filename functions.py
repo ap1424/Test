@@ -17,8 +17,7 @@ my_function_with_args("Amydillo", "Happy Friday!")
 age = calculate_age(2002, 2021)
 print("You are %d years old." % age)
 
-# -----------------------------------------
-# Classes and Objects
+# Classes and Objects -----------------------------------------
 class Vehicle:
     name = ""
     color = ""
@@ -42,3 +41,11 @@ car2.value = 60000.00
 
 print(car1.description())
 print(car2.description())
+
+# Dictionaries -----------------------------------------
+phonebook = {
+    "Amy" : 1111111111,
+    "Erin" : 2222222222
+}
+del phonebook["Amy"] # or phonebook.pop("Amy")
+print(phonebook)
